@@ -1,0 +1,10 @@
+node_modules
+client
+.git
+*.log
+*.md
+.env
+.DS_Store
+checkUsers.js
+createTestUsers.js
+

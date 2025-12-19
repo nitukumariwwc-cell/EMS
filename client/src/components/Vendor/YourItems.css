@@ -1,0 +1,47 @@
+.your-items-page {
+  min-height: 100vh;
+  background-color: #d3d3d3;
+  padding: 30px;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.content-box {
+  background-color: #e8e8e8;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.content-box h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+.image-placeholder {
+  width: 80px;
+  height: 80px;
+  background-color: #4a90e2;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.action-buttons .btn {
+  padding: 8px 15px;
+  font-size: 14px;
+}
+

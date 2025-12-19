@@ -1,0 +1,44 @@
+.vendor-products-page {
+  min-height: 100vh;
+  background-color: #d3d3d3;
+  padding: 30px;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.product-card {
+  background-color: #4a90e2;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.product-card p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.no-products {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+

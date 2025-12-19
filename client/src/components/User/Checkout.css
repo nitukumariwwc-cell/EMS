@@ -1,0 +1,41 @@
+.checkout-page {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.order-success {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.order-success h1 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.order-details {
+  background: #f9fafb;
+  padding: 24px;
+  border-radius: 8px;
+  margin: 30px 0;
+  text-align: left;
+}
+
+.order-details h2 {
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.order-details p {
+  margin: 8px 0;
+  color: #374151;
+}
+
+@media (max-width: 768px) {
+  .checkout-page form > div {
+    grid-template-columns: 1fr !important;
+  }
+}

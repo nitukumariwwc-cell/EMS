@@ -1,0 +1,51 @@
+.vendor-list-page {
+  min-height: 100vh;
+  background-color: #d3d3d3;
+  padding: 30px;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.category-selector {
+  flex: 1;
+  max-width: 300px;
+  margin: 0 20px;
+}
+
+.vendor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.vendor-card {
+  background-color: #4a90e2;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.vendor-card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.vendor-card p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.no-vendors {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+  color: #666;
+}
+
